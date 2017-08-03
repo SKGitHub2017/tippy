@@ -1,4 +1,4 @@
-class string_based
+class String
 	def interger?
 		return true if self =~ /^[1-9]\d*(\.\d+)?$/
 	end
