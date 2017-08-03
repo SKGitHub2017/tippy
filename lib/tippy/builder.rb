@@ -1,3 +1,9 @@
+class string_based
+	def interger?
+		return true if self =~ /^[1-9]\d*(\.\d+)?$/
+	end
+end		
+
 module Tippy
 
 	class Builder
